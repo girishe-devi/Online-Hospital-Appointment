@@ -1,0 +1,10 @@
+.nav_list{
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,116 @@
+.about {
+    padding: 60px 8%;
+    background-color: #f5f9ff;
+    text-align: center;
+}
+
+.intro h2,
+.departments h2 {
+    font-size: 2.2rem;
+    color: #0b3d91;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+.achievements {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 50px 0;
+}
+
+.achievementCard {
+    background-color: #0b3d91;
+    color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    min-width: 180px;
+}
+
+.achievementCard h3 {
+    font-size: 2.2rem;
+    margin: 0 0 8px;
+}
+
+.achievementCard p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.departmentGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.departmentCard {
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.departmentCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon {
+    font-size: 2.5rem;
+}
+
+.departmentCard h3 {
+    color: #0b3d91;
+    margin: 15px 0 10px;
+}
+
+.departmentCard p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 0.95rem;
+}
+.iconImg {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin-bottom: 12px;
+}
+
+.viewButton {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  background: #0f6e78;
+  color: #ffffff;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.viewButton:hover {
+  filter: brightness(0.92);
+}
+
+.viewButton:focus-visible {
+  outline: 2px solid #0f6e78;
+  outline-offset: 2px;
+}
+.iconImg {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 12px;
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "a33f5805-6b1a-4f71-8a69-9ad17b75fbd6",
+    "doctorId": "c1",
+    "doctorName": "Dr. Arvind Menon",
+    "department": "Cardiology",
+    "patient": {
+      "name": "Anu Raj",
+      "phone": "9876543210",
+      "email": "anu@example.com",
+      "age": 34,
+      "gender": "Female"
+    },
+    "date": "2026-10-30",
+    "timeSlot": "10:30 AM",
+    "reason": "Checkup",
+    "createdAt": "2026-10-25T14:08:05.271Z"
+  },
+  {
+    "id": "06225c5a-50b8-4dde-b309-4b15b581cffe",
+    "doctorId": "gy2",
+    "doctorName": "Dr. Shalini Mathew",
+    "department": "Gynecology",
+    "patient": {
+      "name": "Lavanya",
+      "phone": "9888844342",
+      "email": "ghfbjk@gmail.com",
+      "age": 35,
+      "gender": "Female"
+    },
+    "date": "2026-10-27",
+    "timeSlot": "03:00 PM",
+    "reason": "checkup",
+    "createdAt": "2026-10-25T14:27:15.495Z"
+  },
+  {
+    "id": "5f407a4c-d86c-41ec-8dca-67ce9ae9bac1",
+    "doctorId": "o2",
+    "doctorName": "Dr. Lakshmi Devi",
+    "department": "Orthopedics",
+    "patient": {
+      "name": "Ravi",
+      "phone": "5674834447",
+      "email": "ravi@gmail.com",
+      "age": 47,
+      "gender": "Male"
+    },
+    "date": "2026-10-27",
+    "timeSlot": "04:00 PM",
+    "reason": "checkup",
+    "createdAt": "2026-10-26T07:21:09.125Z"
+  }
+]
